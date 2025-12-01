@@ -21,7 +21,7 @@
     display: block;
 }
 
-/* ฝั่งขวา (ฟอร์ม Login) */
+/* ฝั่งขวา (ฟอร์ม Signup) */
 .login-right {
     flex: 1;
     display: flex;
@@ -37,7 +37,7 @@
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
     color: black;
-    transform: translateY(-40px)
+    transform: translateY(-40px);
 }
 
 /* ช่องกรอก */
@@ -69,19 +69,12 @@
 }
 
 /* ส่วนลิงก์ */
-.forgot-text {
-    margin-top: 10px;
-    color: #4423E9;
-    cursor: pointer;
-    font-size: 15px;
-}
-
-.signup-text {
+.login-text {
     margin-top: 20px;
     font-size: 14px;
 }
 
-.signup-text a {
+.login-text a {
     color: #4423E9;
     font-weight: bold;
 }
@@ -118,21 +111,15 @@
         padding: 14px;
     }
 
-    /* ปุ่ม log in เต็มขึ้น */
+    /* ปุ่ม signup เต็มขึ้น */
     .login-btn {
         width: 85%;
         padding: 14px;
         font-size: 18px;
     }
 
-    .forgot-text {
-        margin-top: 15px;
-        font-size: 16px;
-    }
-
-    .signup-text {
+    .login-text {
         margin-top: 25px;
         font-size: 15px;
     }
 }
-
