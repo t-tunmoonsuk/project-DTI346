@@ -5,10 +5,10 @@ function LoginButton() {
     return (
         <Link to="/login">
             <button style={{
-                backgroundColor: "blue",
-                color: "white",
+                backgroundColor: "white",
+                color: "black",
                 padding: "10px 20px",
-                border: "none",
+                border: "2px solid black",
                 borderRadius: "8px"
             }}
             >
